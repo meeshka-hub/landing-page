@@ -12,18 +12,30 @@ body {
     flex-direction: column;
 }
 
-.section {
+.section.first{
     width: 100%;
     background-color: #1F2937;
     color: #F9FAF8;
 }
 
-.header {
+.contentContainer {
     max-width: 1060px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     padding: 0px 60px;
+}
+
+.infoBox {
+    justify-content: center;
+    align-items: center;
+}
+
+.infoBox .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
 }
 
 .navBar {
@@ -85,4 +97,22 @@ body {
     border-width: 0px;
     border-radius: 8px;
     padding: 8px;
+}
+
+.infoBox h1{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding:20px
+}
+
+.itemContainer {
+    flex-basis: 150px;
+    padding-bottom: 60px;
+}
+
+.infoBox img {
+    border: 6px solid #3882F6;
+    border-radius: 14px;
+    width: 175px;
 }
