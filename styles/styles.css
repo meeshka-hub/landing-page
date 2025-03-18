@@ -1,5 +1,5 @@
 * {
-    /* outline: auto; */
+    outline: auto;
 }
 
 body {
@@ -16,6 +16,11 @@ body {
     width: 100%;
     background-color: #1F2937;
     color: #F9FAF8;
+}
+
+.section.third {
+    width: 100%;
+    background-color: #E5E7EB;
 }
 
 .contentContainer {
@@ -36,6 +41,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+    padding-bottom: 60px;
 }
 
 .navBar {
@@ -108,11 +114,30 @@ body {
 
 .itemContainer {
     flex-basis: 150px;
-    padding-bottom: 60px;
 }
 
 .infoBox img {
     border: 6px solid #3882F6;
     border-radius: 14px;
     width: 175px;
+}
+
+.quoteBox {
+    padding: 60px;
+    gap: 10px
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.quote.attribution {
+    font-weight: 600px;
+    justify-self: right;
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: auto;
 }
