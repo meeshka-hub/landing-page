@@ -1,5 +1,5 @@
 * {
-    outline: auto;
+    /* outline: auto; */
 }
 
 body {
@@ -140,4 +140,46 @@ body {
     font-size: 24px;
     font-weight: 600;
     margin-left: auto;
+}
+
+.callToActionBox {
+    display: block;
+    padding: 60px;
+}
+
+.callToAction {
+    background-color: #3882F6;
+    padding: 60px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-width: 0px;
+    border-radius: 8px;
+}
+
+.callToAction .text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    margin: 0px;
+    gap: 5px
+}
+
+.callToAction h2 {
+    margin: 0px;
+}
+
+.callToAction p {
+    margin: 0px;
+}
+
+.callToAction .text {
+    color: #F9FAF8;
+}
+
+.callToAction .signupButton {
+    padding: 10px 29px;
+    border-width: 3px;
+    border-color: #F9FAF8;
 }
