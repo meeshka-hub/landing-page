@@ -23,6 +23,11 @@ body {
     background-color: #E5E7EB;
 }
 
+.section.footer {
+    width: 100%;
+    background-color: #1F2937
+}
+
 .contentContainer {
     max-width: 1060px;
     margin: 0 auto;
@@ -181,5 +186,11 @@ body {
 .callToAction .signupButton {
     padding: 10px 29px;
     border-width: 3px;
+    border-style: solid;
     border-color: #F9FAF8;
+}
+
+.footerText {
+    padding: 30px;
+    color: #F9FAF8;
 }
